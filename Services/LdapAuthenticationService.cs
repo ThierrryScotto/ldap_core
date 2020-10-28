@@ -27,13 +27,13 @@ namespace ldap_core.Services
 
         public IAppUser Login(string username, string password)
         {
-            _connection.Connect(_config.Url, LdapConnection.DEFAULT_PORT);
+            _connection.Connect(_config.Url, LdapConnection.DefaultPort);
             _connection.Bind(_config.Username, _config.Password);
 
             var searchFilter = String.Format(_config.SearchFilter, username);
             var result = _connection.Search(
                 _config.SearchBase,
-                LdapConnection.SCOPE_SUB,
+                LdapConnection.ScopeSub,
                 searchFilter,
                 new [] {
                     MemberOfAttribute,
