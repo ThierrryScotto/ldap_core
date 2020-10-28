@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ok9MwtVQ1zih2cimKPI5D8FchuBxXlGUjm7bZ+0DjBWrdZSdAMJIJQlbUPGHjiQmwBJLRg/YY6d6PJrPlg+SXw==",
+  "success": true,
+  "projectFilePath": "/home/thierry/Documentos/Thierry/DotNet/ldap_core/ldap_core.csproj",
+  "expectedPackageFiles": [
+    "/home/thierry/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.7/microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+    "/home/thierry/.nuget/packages/novell.directory.ldap.netstandard/3.3.1/novell.directory.ldap.netstandard.3.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
